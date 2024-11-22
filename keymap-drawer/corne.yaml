@@ -1,0 +1,193 @@
+layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layers:
+  default:
+  - ESC
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
+  - CAPSLOCK
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - RET
+  - TAB
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RSHFT
+  - {t: '''', h: arrow}
+  - {t: SPACE, h: bt}
+  - {t: LEFT WIN, h: LCTRL}
+  - {t: SPACE, h: number}
+  - LEFT SHIFT
+  - {t: '''', h: Alt+ '}
+  number:
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  bt:
+  - ESC
+  - Sft+ 1
+  - Sft+ 2
+  - Sft+ 3
+  - Sft+ 4
+  - Sft+ 5
+  - Sft+ 6
+  - Sft+ 7
+  - Sft+ 8
+  - Sft+ 9
+  - Sft+ 0
+  - ''
+  - ''
+  - ''
+  - LEFT ARROW
+  - DEL
+  - RIGHT
+  - BT CLR
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BT, h: '4'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '0'}
+  - '&bootloader'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  arrow:
+  - ''
+  - ''
+  - UP ARROW
+  - ''
+  - '&sys_reset'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+combos:
+- p: [2, 1]
+  k: ESCAPE
+- p: [14, 13]
+  k: CLCK
+- p: [26, 25]
+  k: TAB
+- p: [10, 9]
+  k: BACKSPACE
+- p: [22, 21]
+  k: ENTER
+- p: [19, 20]
+  k: '-'
+- p: [21, 20]
+  k: '='
+- p: [1, 29]
+  k: '&sys_reset'
+- p: [30, 10]
+  k: '&sys_reset'
