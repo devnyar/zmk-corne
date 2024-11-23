@@ -1,9 +1,50 @@
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
-  default: [ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, '&mt LCTRL', A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, C, V, B, N, M, ',', ., /, ENTER, '3', '1', SPACE,
-    SPACE, '2', '&td_mt']
+  '0':
+  - ESC
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
+  - CAPSLOCK
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - RET
+  - TAB
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RSHFT
+  - {t: '''', h: '3'}
+  - {t: SPACE, h: '2'}
+  - {t: LEFT WIN, h: LCTRL}
+  - {t: SPACE, h: '1'}
+  - LEFT SHIFT
+  - {t: '''', h: Alt+ '}
   '1':
-  - '`'
+  - ''
   - '1'
   - '2'
   - '3'
@@ -14,188 +55,139 @@ layers:
   - '8'
   - '9'
   - '0'
-  - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - VOL DN
-  - VOL UP
-  - MUTE
-  - LEFT
-  - '4'
-  - '5'
-  - '6'
-  - MUTE
-  - PLAY PAUSE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PREV
-  - NEXT
-  - PLAY PAUSE
-  - '-'
-  - '1'
-  - '2'
-  - '3'
-  - PREV
-  - NEXT
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '4'
-  - '0'
+  - ''
+  - ''
   '2':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - _
-  - +
-  - (
-  - )
-  - HOME
-  - UP
-  - END
-  - {t: ▽, type: trans}
+  - ESC
+  - Sft+ 1
+  - Sft+ 2
+  - Sft+ 3
+  - Sft+ 4
+  - Sft+ 5
+  - Sft+ 6
+  - Sft+ 7
+  - Sft+ 8
+  - Sft+ 9
+  - Sft+ 0
+  - ''
+  - ''
+  - ''
+  - LEFT ARROW
   - DEL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '='
-  - '-'
-  - '['
-  - ']'
-  - LEFT
-  - DOWN
   - RIGHT
-  - BRI UP
-  - VOL UP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '{'
-  - '}'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BRI DN
-  - VOL DN
-  - {t: ▽, type: trans}
-  - '4'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  '3':
-  - F12
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&zed_em_kay'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  '4':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BT NXT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - BT CLR
-  - BT PRV
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BT, h: '4'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '0'}
+  - '&bootloader'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  '3':
+  - ''
+  - ''
+  - UP ARROW
+  - ''
+  - '&sys_reset'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
 combos:
-- p: [0, 1]
-  k: '`'
-- p: [1, 2]
-  k: '!'
-- p: [2, 3]
-  k: '@'
-- p: [3, 4]
-  k: '#'
-- p: [4, 5]
-  k: $
-- p: [5, 6]
-  k: '%'
-- p: [6, 7]
-  k: ^
-- p: [7, 8]
-  k: '&'
-- p: [8, 9]
-  k: '*'
-- p: [9, 10]
-  k: (
-- p: [10, 11]
-  k: )
-- p: [36, 37]
-  k: Gui+ LALT
+- p: [2, 1]
+  k: ESCAPE
+- p: [14, 13]
+  k: CLCK
+- p: [26, 25]
+  k: TAB
+- p: [10, 9]
+  k: BACKSPACE
+- p: [22, 21]
+  k: ENTER
+- p: [19, 20]
+  k: '-'
+- p: [21, 20]
+  k: '='
+- p: [1, 29]
+  k: '&sys_reset'
+- p: [30, 10]
+  k: '&sys_reset'
