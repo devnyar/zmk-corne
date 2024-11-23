@@ -3,10 +3,10 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 
-#define DEFAULT def
-#define LAYER1  num
-#define LAYER2  nav
-#define LAYER3  dev
+#define DEFAULT 0
+#define LAYER1  1
+#define LAYER2  2
+#define LAYER3  3
 #define LAYER4  4
 
 / {
