@@ -234,3 +234,13 @@ combos:
   k: '&sys_reset'
 - p: [30, 10]
   k: '&sys_reset'
+- p: [17, 18]
+  k: {t: '0', h: toggle}
+- p: [16, 19]
+  k: {t: '1', h: toggle}
+- p: [15, 20]
+  k: {t: '3', h: toggle}
+- p: [14, 21]
+  k: {t: func, h: toggle}
+- p: [13, 22]
+  k: {t: settings, h: toggle}

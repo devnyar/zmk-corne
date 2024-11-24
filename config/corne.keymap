@@ -25,27 +25,27 @@
     combos {
         compatible = "zmk,combos";
 
-        a {
+        esc {
             bindings = <&kp ESCAPE>;
             key-positions = <2 1>;
         };
 
-        b {
+        caplock {
             bindings = <&kp CLCK>;
             key-positions = <14 13>;
         };
 
-        c {
+        tab {
             bindings = <&kp TAB>;
             key-positions = <26 25>;
         };
 
-        d {
+        backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <10 9>;
         };
 
-        e {
+        enter {
             bindings = <&kp ENTER>;
             key-positions = <22 21>;
         };
@@ -60,14 +60,39 @@
             key-positions = <21 20>;
         };
 
-        h {
+        sys_reset_left {
             bindings = <&sys_reset>;
             key-positions = <1 29>;
         };
 
-        j {
+        sys_reset_right {
             bindings = <&sys_reset>;
             key-positions = <30 10>;
+        };
+
+        layer0 {
+            bindings = <&tog 0>;
+            key-positions = <17 18>;
+        };
+
+        layer1 {
+            bindings = <&tog 1>;
+            key-positions = <16 19>;
+        };
+
+        layer2 {
+            bindings = <&tog 2>;
+            key-positions = <15 20>;
+        };
+
+        layer3 {
+            bindings = <&tog 3>;
+            key-positions = <14 21>;
+        };
+
+        layer4 {
+            bindings = <&tog 4>;
+            key-positions = <13 22>;
         };
     };
 
