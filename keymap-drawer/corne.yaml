@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - BSPC
-  - CAPSLOCK
+  - TAB
   - A
   - S
   - D
@@ -25,7 +25,7 @@ layers:
   - L
   - ;
   - RET
-  - TAB
+  - LEFT SHIFT
   - Z
   - X
   - C
@@ -37,14 +37,14 @@ layers:
   - .
   - /
   - RSHFT
-  - {t: '''', h: '3'}
-  - {t: SPACE, h: '1'}
+  - {t: '''', h: '1'}
+  - {t: SPACE, h: func}
   - {t: LEFT WIN, h: LCTRL}
-  - {t: SPACE, h: '1'}
-  - LEFT SHIFT
-  - {t: '''', h: Alt+ '}
+  - {t: SPACE, h: settings}
+  - {t: '[', h: func}
+  - {t: (, h: '1'}
   '1':
-  - ''
+  - '`'
   - '1'
   - '2'
   - '3'
@@ -55,74 +55,31 @@ layers:
   - '8'
   - '9'
   - '0'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  '3':
-  - ''
-  - ''
+  - LOCK
+  - PRINTSCREEN
+  - PLAY PAUSE
+  - MUTE
+  - LEFT
+  - RIGHT ARROW
+  - VOLUME UP
   - UP ARROW
+  - '4'
+  - '5'
+  - '6'
+  - HOME
+  - PAGE UP
+  - KEYBOARD INPUT ASSIST NEXT
+  - PREV
+  - NEXT
   - ''
-  - '&sys_reset'
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - LEFT ARROW
+  - VOLUME DOWN
   - DOWN ARROW
-  - RIGHT
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - '1'
+  - '2'
+  - '3'
+  - END
+  - PAGE DOWN
   - {type: held}
   - ''
   - ''
@@ -167,7 +124,7 @@ layers:
   - F24
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -212,7 +169,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
@@ -239,7 +196,7 @@ combos:
 - p: [16, 19]
   k: {t: '1', h: toggle}
 - p: [15, 20]
-  k: {t: '3', h: toggle}
+  k: {t: '0', h: toggle}
 - p: [14, 21]
   k: {t: func, h: toggle}
 - p: [13, 22]
