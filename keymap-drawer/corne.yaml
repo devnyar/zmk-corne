@@ -37,9 +37,9 @@ layers:
   - .
   - /
   - RSHFT
-  - {t: '''', h: '1'}
-  - {t: SPACE, h: func}
-  - {t: LEFT WIN, h: LCTRL}
+  - {t: '''', h: LEFT CONTROL}
+  - {t: SPACE, h: LEFT ALT}
+  - {t: SPACE, h: LEFT COMMAND}
   - {t: SPACE, h: settings}
   - {t: '&', h: func}
   - {t: \, h: '1'}
@@ -80,12 +80,12 @@ layers:
   - '3'
   - END
   - PAGE DOWN
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   func:
   - {t: ▽, type: trans}
   - F1
@@ -124,10 +124,10 @@ layers:
   - F24
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   settings:
   - '&sys_reset'
