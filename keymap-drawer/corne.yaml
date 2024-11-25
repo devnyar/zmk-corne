@@ -41,8 +41,8 @@ layers:
   - {t: SPACE, h: func}
   - {t: LEFT WIN, h: LCTRL}
   - {t: SPACE, h: settings}
-  - {t: '[', h: func}
-  - {t: (, h: '1'}
+  - {t: '&', h: func}
+  - {t: \, h: '1'}
   '1':
   - '`'
   - '1'
@@ -174,19 +174,19 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [2, 1]
-  k: ESCAPE
-- p: [14, 13]
-  k: CLCK
-- p: [26, 25]
-  k: TAB
-- p: [10, 9]
-  k: BACKSPACE
-- p: [22, 21]
-  k: ENTER
+  k: CAPS
+- p: [16, 15]
+  k: '{'
 - p: [19, 20]
-  k: '-'
-- p: [21, 20]
-  k: '='
+  k: '}'
+- p: [4, 3]
+  k: (
+- p: [7, 8]
+  k: )
+- p: [27, 28]
+  k: '['
+- p: [31, 32]
+  k: ']'
 - p: [1, 29]
   k: '&sys_reset'
 - p: [30, 10]
