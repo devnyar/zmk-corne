@@ -37,9 +37,9 @@ layers:
   - .
   - /
   - RSHFT
-  - {t: '''', h: LEFT CONTROL}
-  - {t: SPACE, h: LEFT ALT}
   - {t: SPACE, h: LEFT COMMAND}
+  - {t: SPACE, h: LEFT ALT}
+  - {t: '''', h: LEFT CONTROL}
   - {t: SPACE, h: settings}
   - {t: '&', h: func}
   - {t: \, h: number}
