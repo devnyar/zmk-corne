@@ -38,10 +38,10 @@ layers:
   - /
   - RSHFT
   - {t: SPACE, h: LEFT COMMAND}
-  - {t: SPACE, h: LEFT ALT}
+  - SPACE
   - {t: '''', h: LEFT CONTROL}
-  - {t: SPACE, h: settings}
-  - {t: '&', h: func}
+  - SPACE
+  - {t: '&', h: LEFT ALT}
   - {t: \, h: number}
   number:
   - '`'
@@ -127,7 +127,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   settings:
   - '&sys_reset'
@@ -169,7 +169,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
