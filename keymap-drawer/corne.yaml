@@ -37,8 +37,8 @@ layers:
   - .
   - /
   - RSHFT
-  - {t: SPACE, h: LEFT COMMAND}
   - SPACE
+  - {t: SPACE, h: LEFT GUI}
   - {t: '''', h: LEFT CONTROL}
   - SPACE
   - {t: '&', h: LEFT ALT}
@@ -54,8 +54,8 @@ layers:
   - '7'
   - '8'
   - '9'
+  - '0'
   - HOME
-  - PAGE UP
   - PRINTSCREEN
   - PLAY PAUSE
   - MUTE
@@ -66,8 +66,8 @@ layers:
   - '4'
   - '5'
   - '6'
+  - '-'
   - END
-  - PAGE DOWN
   - LEFT SHIFT
   - PREV
   - NEXT
@@ -78,10 +78,10 @@ layers:
   - '1'
   - '2'
   - '3'
-  - .
+  - '='
   - RIGHT SHIFT
-  - {t: SPACE, h: LEFT COMMAND}
   - func
+  - {t: SPACE, h: LEFT GUI}
   - {t: '''', h: LEFT CONTROL}
   - SPACE
   - {t: '&', h: LEFT ALT}
@@ -123,8 +123,8 @@ layers:
   - F23
   - F24
   - RIGHT SHIFT
-  - {t: SPACE, h: LEFT COMMAND}
   - {t: SPACE, type: held}
+  - {t: SPACE, h: LEFT GUI}
   - {t: '''', h: LEFT CONTROL}
   - SPACE
   - {t: '&', h: LEFT ALT}
