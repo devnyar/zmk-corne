@@ -196,8 +196,6 @@ combos:
 - p: [16, 19]
   k: {t: number, h: toggle}
 - p: [15, 20]
-  k: {t: default, h: toggle}
-- p: [14, 21]
   k: {t: func, h: toggle}
-- p: [13, 22]
+- p: [14, 21]
   k: {t: settings, h: toggle}

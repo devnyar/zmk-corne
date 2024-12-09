@@ -81,18 +81,13 @@
         };
 
         layer2 {
-            bindings = <&tog 0>;
+            bindings = <&tog 2>;
             key-positions = <15 20>;
         };
 
         layer3 {
-            bindings = <&tog 2>;
-            key-positions = <14 21>;
-        };
-
-        layer4 {
             bindings = <&tog 3>;
-            key-positions = <13 22>;
+            key-positions = <14 21>;
         };
     };
 
