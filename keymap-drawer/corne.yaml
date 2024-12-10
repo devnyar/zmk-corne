@@ -147,10 +147,10 @@ combos:
 - p: [6, 7]
   k: '>'
 - p: [27, 28]
-  k: COPY
+  k: AC COPY
 - p: [28, 29]
-  k: PASTE
-- p: [15, 3]
+  k: AC PASTE
+- p: [5, 17]
   k: '@'
 - p: [13, 25]
   k: '`'
