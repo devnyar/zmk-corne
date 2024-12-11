@@ -1,7 +1,48 @@
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
-  default: [ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, RET, LEFT SHIFT, Z, X, C, V, B, N, M, ',', ., /, RSHFT, SPACE, LEFT GUI, LEFT
-      CONTROL, SPACE, LEFT ALT, number]
+  default:
+  - ESC
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
+  - TAB
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - RET
+  - {t: LEFT SHIFT, h: sticky}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: RSHFT, h: sticky}
+  - SPACE
+  - {t: LEFT GUI, h: sticky}
+  - {t: LEFT CONTROL, h: sticky}
+  - SPACE
+  - {t: LEFT ALT, h: sticky}
+  - number
   number:
   - '`'
   - '1'
@@ -184,3 +225,5 @@ combos:
   k: '{'
 - p: [20, 21]
   k: '}'
+- p: [35, 23]
+  k: '&key_repeat'
