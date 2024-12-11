@@ -62,12 +62,12 @@
         };
 
         copy {
-            bindings = <&kp C_AC_COPY>;
+            bindings = <&kp LG(C)>;
             key-positions = <27 28>;
         };
 
         paste {
-            bindings = <&kp C_AC_PASTE>;
+            bindings = <&kp LG(V)>;
             key-positions = <28 29>;
         };
 
@@ -156,9 +156,14 @@
             key-positions = <20 21>;
         };
 
-        key_repeat {
-            bindings = <&key_repeat>;
-            key-positions = <35 23>;
+        exclamation {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <2 14>;
+        };
+
+        cut {
+            bindings = <&kp LG(X)>;
+            key-positions = <27 26>;
         };
     };
 
