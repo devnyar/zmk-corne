@@ -44,7 +44,7 @@ layers:
   - {t: LEFT ALT, h: sticky}
   - number
   number:
-  - '`'
+  - '~'
   - '1'
   - '2'
   - '3'
@@ -55,19 +55,19 @@ layers:
   - '8'
   - '9'
   - '0'
-  - HOME
+  - PAGE UP
   - PRINTSCREEN
-  - PLAY PAUSE
+  - PAUSE
   - MUTE
   - LEFT
   - RIGHT ARROW
   - VOLUME UP
   - UP ARROW
-  - '4'
-  - '5'
+  - LEFT
+  - RIGHT
   - '6'
   - '-'
-  - END
+  - PAGE DOWN
   - LEFT SHIFT
   - PREV
   - NEXT
@@ -75,8 +75,8 @@ layers:
   - BRIGHTNESS INC
   - VOLUME DOWN
   - DOWN ARROW
-  - '1'
-  - '2'
+  - HOME
+  - END
   - '3'
   - '='
   - RIGHT SHIFT
@@ -188,13 +188,13 @@ combos:
 - p: [6, 7]
   k: '>'
 - p: [27, 28]
-  k: Gui+ C
+  k: Gui+C
 - p: [28, 29]
-  k: Gui+ V
+  k: Gui+V
 - p: [5, 17]
   k: '@'
 - p: [13, 25]
-  k: '`'
+  k: '~'
 - p: [14, 13]
   k: '#'
 - p: [14, 26]
@@ -228,4 +228,4 @@ combos:
 - p: [2, 14]
   k: '!'
 - p: [27, 26]
-  k: Gui+ X
+  k: Gui+X
