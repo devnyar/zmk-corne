@@ -57,24 +57,24 @@ layers:
   - '0'
   - PAGE UP
   - PRINTSCREEN
-  - PAUSE
-  - MUTE
-  - LEFT
-  - RIGHT ARROW
+  - F16
+  - F17
+  - F18
+  - F19
   - VOLUME UP
-  - UP ARROW
   - LEFT
+  - DOWN
+  - UP
   - RIGHT
-  - '6'
   - '-'
   - PAGE DOWN
   - LEFT SHIFT
-  - PREV
-  - NEXT
-  - BRIGHTNESS DEC
+  - ''
+  - ''
   - BRIGHTNESS INC
+  - BRIGHTNESS DEC
   - VOLUME DOWN
-  - DOWN ARROW
+  - '&input_switch'
   - HOME
   - END
   - '3'
