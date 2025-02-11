@@ -185,23 +185,23 @@
             bindings = <
 &kp ESC         &kp Q  &kp W  &kp E      &kp R         &kp T               &kp Y  &kp U         &kp I      &kp O    &kp P     &kp BSPC
 &kp TAB         &kp A  &kp S  &kp D      &kp F         &kp G               &kp H  &kp J         &kp K      &kp L    &kp SEMI  &kp RET
-&sk LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V         &kp B               &kp N  &kp M         &kp COMMA  &kp DOT  &kp FSLH  &sk RSHFT
+&sk LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V         &kp B               &kp N  &kp M         &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
                               &kp SPACE  &sk LEFT_GUI  &sk LEFT_CONTROL    &mo 2  &sk LEFT_ALT  &mo 1
             >;
         };
 
         number_layer {
             bindings = <
-&kp TILDE        &kp N1   &kp N2   &kp N3                &kp N4                &kp N5               &kp N6         &kp N7        &kp N8   &kp N9     &kp N0     &kp PAGE_UP
-&kp PRINTSCREEN  &kp F16  &kp F17  &kp F18               &kp F19               &kp C_VOLUME_UP      &kp LEFT       &kp DOWN      &kp UP   &kp RIGHT  &kp MINUS  &kp PAGE_DOWN
-&kp LEFT_SHIFT   &none    &none    &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &kp C_VOLUME_DOWN    &input_switch  &kp HOME      &kp END  &kp N3     &kp EQUAL  &kp RIGHT_SHIFT
-                                   &kp SPACE             &kp LEFT_GUI          &kp LEFT_CONTROL     &trans         &kp LEFT_ALT  &trans
+&kp TILDE        &kp N1   &kp N2   &kp N3                &kp N4                &kp N5               &kp N6    &kp N7        &kp N8   &kp N9     &kp N0     &kp PAGE_UP
+&kp PRINTSCREEN  &kp F16  &kp F17  &kp LEFT_ARROW        &kp RIGHT             &kp C_VOLUME_UP      &kp LEFT  &kp DOWN      &kp UP   &kp RIGHT  &kp MINUS  &kp PAGE_DOWN
+&kp LEFT_SHIFT   &kp F18  &kp F19  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN    &kp DOWN  &kp HOME      &kp END  &kp N3     &kp EQUAL  &kp RIGHT_SHIFT
+                                   &kp SPACE             &kp LEFT_GUI          &kp LEFT_CONTROL     &trans    &kp LEFT_ALT  &trans
             >;
         };
 
         func {
             bindings = <
-&none           &kp F1   &kp F2   &kp F3     &kp F4        &kp F5              &mkp MB1  &mkp MB2      &mkp MB3  &trans   &trans   &trans
+&none           &kp F1   &kp F2   &kp F3     &kp F4        &kp F5              &mkp MB1  &mkp MB2      &mkp MB3  &trans   &trans   &input_switch
 &mo 3           &kp F6   &kp F7   &kp F8     &kp F9        &kp F10             &trans    &mkp MB4      &mkp MB5  &trans   &trans   &trans
 &kp LEFT_SHIFT  &kp F11  &kp F12  &kp F13    &kp F14       &kp F15             &kp F16   &kp F17       &kp F18   &kp F19  &kp F20  &trans
                                   &kp SPACE  &kp LEFT_GUI  &kp LEFT_CONTROL    &trans    &kp LEFT_ALT  &trans

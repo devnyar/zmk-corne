@@ -36,7 +36,7 @@ layers:
   - ','
   - .
   - /
-  - {t: RSHFT, h: sticky}
+  - RSHFT
   - SPACE
   - {t: LEFT GUI, h: sticky}
   - {t: LEFT CONTROL, h: sticky}
@@ -59,8 +59,8 @@ layers:
   - PRINTSCREEN
   - F16
   - F17
-  - F18
-  - F19
+  - LEFT ARROW
+  - RIGHT
   - VOLUME UP
   - LEFT
   - DOWN
@@ -69,12 +69,12 @@ layers:
   - '-'
   - PAGE DOWN
   - LEFT SHIFT
-  - ''
-  - ''
-  - BRIGHTNESS INC
+  - F18
+  - F19
   - BRIGHTNESS DEC
+  - BRIGHTNESS INC
   - VOLUME DOWN
-  - '&input_switch'
+  - DOWN
   - HOME
   - END
   - '3'
@@ -98,7 +98,7 @@ layers:
   - '&mkp MB3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&input_switch'
   - settings
   - F6
   - F7
