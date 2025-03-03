@@ -201,19 +201,19 @@
 
         func {
             bindings = <
-&none           &kp F1   &kp F2   &kp F3     &kp F4        &kp F5              &mkp MB1  &mkp MB2      &mkp MB3  &trans   &trans   &input_switch
-&mo 3           &kp F6   &kp F7   &kp F8     &kp F9        &kp F10             &trans    &mkp MB4      &mkp MB5  &trans   &trans   &trans
-&kp LEFT_SHIFT  &kp F11  &kp F12  &kp F13    &kp F14       &kp F15             &kp F16   &kp F17       &kp F18   &kp F19  &kp F20  &trans
-                                  &kp SPACE  &kp LEFT_GUI  &kp LEFT_CONTROL    &trans    &kp LEFT_ALT  &trans
+&none           &kp F1   &kp F2   &kp F3     &kp F4        &kp F5              &trans   &mkp MB2      &mkp MB3  &trans   &trans   &input_switch
+&mo 3           &kp F6   &kp F7   &kp F8     &kp F9        &kp F10             &trans   &mkp MB4      &mkp MB5  &trans   &trans   &trans
+&kp LEFT_SHIFT  &kp F11  &kp F12  &kp F13    &kp F14       &kp F15             &kp F16  &kp F17       &kp F18   &kp F19  &kp F20  &trans
+                                  &kp SPACE  &kp LEFT_GUI  &kp LEFT_CONTROL    &trans   &kp LEFT_ALT  &trans
             >;
         };
 
         settings {
             bindings = <
-&none   &sys_reset  &trans      &trans  &ext_power EP_ON  &ext_power EP_OFF    &sys_reset  &none          &bt BT_CLR     &trans         &trans         &trans
-&trans  &bl BL_ON   &bl BL_INC  &trans  &out OUT_TOG      &trans               &bt BT_NXT  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &trans
-&trans  &bl BL_OFF  &bl BL_DEC  &trans  &trans            &trans               &bt BT_PRV  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &trans
-                                &trans  &trans            &trans               &trans      &trans         &trans
+&none   &sys_reset  &out OUT_BLE  &out OUT_USB  &ext_power EP_ON  &ext_power EP_OFF    &sys_reset  &none          &bt BT_CLR     &trans         &trans         &trans
+&trans  &bl BL_ON   &bl BL_INC    &trans        &out OUT_TOG      &trans               &bt BT_NXT  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &trans
+&trans  &bl BL_OFF  &bl BL_DEC    &trans        &trans            &trans               &bt BT_PRV  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &trans
+                                  &trans        &trans            &trans               &trans      &trans         &trans
             >;
         };
     };

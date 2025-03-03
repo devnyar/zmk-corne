@@ -93,7 +93,7 @@ layers:
   - F3
   - F4
   - F5
-  - '&mkp MB1'
+  - {t: ▽, type: trans}
   - '&mkp MB2'
   - '&mkp MB3'
   - {t: ▽, type: trans}
@@ -132,8 +132,8 @@ layers:
   settings:
   - ''
   - '&sys_reset'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - OUT BLE
+  - OUT USB
   - EP ON
   - EP OFF
   - '&sys_reset'
