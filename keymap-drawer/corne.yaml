@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
+layout: {zmk_keyboard: corne}
 layers:
   default:
   - ESC
@@ -187,10 +187,6 @@ combos:
   k: <
 - p: [6, 7]
   k: '>'
-- p: [27, 28]
-  k: Gui+C
-- p: [28, 29]
-  k: Gui+V
 - p: [5, 17]
   k: '@'
 - p: [13, 25]
@@ -227,5 +223,3 @@ combos:
   k: '}'
 - p: [2, 14]
   k: '!'
-- p: [27, 26]
-  k: Gui+X

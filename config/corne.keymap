@@ -63,16 +63,6 @@
             key-positions = <6 7>;
         };
 
-        copy {
-            bindings = <&kp LG(C)>;
-            key-positions = <27 28>;
-        };
-
-        paste {
-            bindings = <&kp LG(V)>;
-            key-positions = <28 29>;
-        };
-
         at {
             bindings = <&kp AT_SIGN>;
             key-positions = <5 17>;
@@ -161,11 +151,6 @@
         exclamation {
             bindings = <&kp EXCLAMATION>;
             key-positions = <2 14>;
-        };
-
-        cut {
-            bindings = <&kp LG(X)>;
-            key-positions = <27 26>;
         };
     };
 
