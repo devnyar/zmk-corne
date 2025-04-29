@@ -14,16 +14,16 @@ layers:
   - P
   - BSPC
   - TAB
-  - A
-  - S
-  - D
-  - F
-  - G
+  - {t: A, h: LEFT SHIFT}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LEFT CONTROL}
+  - {t: F, h: LEFT COMMAND}
+  - {t: G, h: number}
   - H
-  - J
-  - K
-  - L
-  - ;
+  - {t: J, h: RIGHT COMMAND}
+  - {t: K, h: RIGHT CONTROL}
+  - {t: L, h: RIGHT ALT}
+  - {t: ;, h: RIGHT SHIFT}
   - RET
   - {t: LEFT SHIFT, h: sticky}
   - Z
@@ -61,7 +61,7 @@ layers:
   - F17
   - LEFT ARROW
   - RIGHT
-  - VOLUME UP
+  - {t: VOLUME UP, type: held}
   - LEFT
   - DOWN
   - UP
@@ -85,7 +85,7 @@ layers:
   - LEFT CONTROL
   - {t: ▽, type: trans}
   - LEFT ALT
-  - {type: held}
+  - {t: ▽, type: trans}
   func:
   - ''
   - F1

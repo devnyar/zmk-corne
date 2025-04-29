@@ -18,8 +18,8 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
-            quick-tap-ms = <200>;
+            tapping-term-ms = <250>;
+            quick-tap-ms = <150>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
@@ -168,10 +168,10 @@
 
         default_layer {
             bindings = <
-&kp ESC         &kp Q  &kp W  &kp E      &kp R         &kp T               &kp Y  &kp U         &kp I      &kp O    &kp P     &kp BSPC
-&kp TAB         &kp A  &kp S  &kp D      &kp F         &kp G               &kp H  &kp J         &kp K      &kp L    &kp SEMI  &kp RET
-&sk LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V         &kp B               &kp N  &kp M         &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-                              &kp SPACE  &sk LEFT_GUI  &sk LEFT_CONTROL    &mo 2  &sk LEFT_ALT  &mo 1
+&kp ESC         &kp Q             &kp W           &kp E               &kp R               &kp T               &kp Y  &kp U                &kp I                &kp O            &kp P                 &kp BSPC
+&kp TAB         &hm LEFT_SHIFT A  &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_COMMAND F  &lt 1 G             &kp H  &hm RIGHT_COMMAND J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L  &hm RIGHT_SHIFT SEMI  &kp RET
+&sk LEFT_SHIFT  &kp Z             &kp X           &kp C               &kp V               &kp B               &kp N  &kp M                &kp COMMA            &kp DOT          &kp FSLH              &kp RSHFT
+                                                  &kp SPACE           &sk LEFT_GUI        &sk LEFT_CONTROL    &mo 2  &sk LEFT_ALT         &mo 1
             >;
         };
 
