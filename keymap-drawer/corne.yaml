@@ -93,11 +93,11 @@ layers:
   - F3
   - F4
   - F5
-  - {t: ▽, type: trans}
-  - '&mkp MB2'
-  - '&mkp MB3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mmv MOVE_X(200)'
+  - '&mkp LCLK'
+  - '&mmv MOVE_UP'
+  - '&mkp RCLK'
+  - '&mmv MOVE_Y(200)'
   - '&input_switch'
   - settings
   - F6
@@ -105,11 +105,11 @@ layers:
   - F8
   - F9
   - F10
-  - {t: ▽, type: trans}
   - '&mkp MB4'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
   - '&mkp MB5'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT SHIFT
   - F11
