@@ -185,9 +185,9 @@
 
         func {
             bindings = <
-&none           &kp F1   &kp F2   &kp F3     &kp F4        &kp F5              &mmv MOVE_X(200)  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &mmv MOVE_Y(200)  &input_switch
+&none           &kp F1   &kp F2   &kp F3     &kp F4        &kp F5              &msc MOVE_X(-20)  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &msc MOVE_Y(-20)  &input_switch
 &mo 3           &kp F6   &kp F7   &kp F8     &kp F9        &kp F10             &mkp MB4          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB5          &trans
-&kp LEFT_SHIFT  &kp F11  &kp F12  &kp F13    &kp F14       &kp F15             &kp F16           &kp F17         &kp F18         &kp F19          &kp F20           &trans
+&kp LEFT_SHIFT  &kp F11  &kp F12  &kp F13    &kp F14       &kp F15             &msc MOVE_X(20)   &tog 2          &mkp MCLK       &kp F19          &msc MOVE_Y(20)   &trans
                                   &kp SPACE  &kp LEFT_GUI  &kp LEFT_CONTROL    &trans            &kp LEFT_ALT    &trans
             >;
         };

@@ -93,11 +93,11 @@ layers:
   - F3
   - F4
   - F5
-  - '&mmv MOVE_X(200)'
+  - '&msc MOVE_X(-20)'
   - '&mkp LCLK'
   - '&mmv MOVE_UP'
   - '&mkp RCLK'
-  - '&mmv MOVE_Y(200)'
+  - '&msc MOVE_Y(-20)'
   - '&input_switch'
   - settings
   - F6
@@ -117,11 +117,11 @@ layers:
   - F13
   - F14
   - F15
-  - F16
-  - F17
-  - F18
+  - '&msc MOVE_X(20)'
+  - {t: func, h: toggle}
+  - '&mkp MCLK'
   - F19
-  - F20
+  - '&msc MOVE_Y(20)'
   - {t: ▽, type: trans}
   - SPACE
   - LEFT GUI
