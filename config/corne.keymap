@@ -206,7 +206,7 @@
 &trans  &msc MOVE_Y(-20)  &mkp RCLK       &mmv MOVE_UP    &mkp LCLK        &msc MOVE_X(-20)    &msc MOVE_X(-20)  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &msc MOVE_Y(-20)  &trans
 &trans  &mkp MB5          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB4            &mkp MB4          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB5          &trans
 &trans  &msc MOVE_Y(20)   &trans          &mkp MCLK       &trans           &msc MOVE_X(20)     &msc MOVE_X(20)   &trans          &mkp MCLK       &trans           &msc MOVE_Y(20)   &trans
-                                          &kp SPACE       &kp LEFT_GUI     &kp LEFT_CONTROL    &trans            &kp LEFT_ALT    &trans
+                                          &kp SPACE       &kp LEFT_GUI     &to 0               &trans            &kp LEFT_ALT    &trans
             >;
         };
     };
