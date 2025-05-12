@@ -37,12 +37,12 @@ layers:
   - .
   - /
   - RSHFT
-  - number
-  - {t: LEFT COMMAND, h: sticky}
-  - func
-  - {t: LEFT CONTROL, h: sticky}
-  - {t: LEFT ALT, h: sticky}
   - SPACE
+  - {t: LEFT COMMAND, h: sticky}
+  - {t: LEFT CONTROL, h: sticky}
+  - func
+  - {t: LEFT ALT, h: sticky}
+  - number
   number:
   - '~'
   - '1'
@@ -80,12 +80,12 @@ layers:
   - '3'
   - '='
   - RIGHT SHIFT
-  - {type: held}
-  - {t: LEFT COMMAND, h: sticky}
-  - {t: ▽, type: trans}
-  - {t: LEFT CONTROL, h: sticky}
-  - {t: LEFT ALT, h: sticky}
   - SPACE
+  - {t: LEFT COMMAND, h: sticky}
+  - {t: LEFT CONTROL, h: sticky}
+  - {t: ▽, type: trans}
+  - {t: LEFT ALT, h: sticky}
+  - {type: held}
   func:
   - ''
   - F1
@@ -118,17 +118,17 @@ layers:
   - F14
   - F15
   - '&msc MOVE_X(20)'
-  - {t: func, h: toggle}
+  - {t: mouse, h: toggle}
   - '&mkp MCLK'
   - F19
   - '&msc MOVE_Y(20)'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - SPACE
   - {t: LEFT COMMAND, h: sticky}
-  - {type: held}
   - {t: LEFT CONTROL, h: sticky}
+  - {type: held}
   - {t: LEFT ALT, h: sticky}
-  - {t: mouse, h: toggle}
+  - {t: ▽, type: trans}
   settings:
   - ''
   - '&sys_reset'
@@ -168,8 +168,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   mouse:
@@ -204,7 +204,7 @@ layers:
   - {t: ▽, type: trans}
   - '&msc MOVE_X(20)'
   - '&msc MOVE_X(20)'
-  - {t: ▽, type: trans}
+  - {t: mouse, h: toggle}
   - '&mkp MCLK'
   - {t: ▽, type: trans}
   - '&msc MOVE_Y(20)'
