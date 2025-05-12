@@ -14,16 +14,16 @@ layers:
   - P
   - BSPC
   - TAB
-  - {t: A, h: LEFT SHIFT}
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LEFT CONTROL}
-  - {t: F, h: LEFT COMMAND}
-  - {t: G, h: number}
+  - A
+  - S
+  - D
+  - F
+  - G
   - H
-  - {t: J, h: RIGHT COMMAND}
-  - {t: K, h: RIGHT CONTROL}
-  - {t: L, h: RIGHT ALT}
-  - {t: ;, h: RIGHT SHIFT}
+  - J
+  - K
+  - L
+  - ;
   - RET
   - {t: LEFT SHIFT, h: sticky}
   - Z
@@ -37,12 +37,12 @@ layers:
   - .
   - /
   - RSHFT
-  - SPACE
-  - {t: LEFT GUI, h: sticky}
-  - {t: LEFT CONTROL, h: sticky}
-  - func
-  - {t: LEFT ALT, h: sticky}
   - number
+  - {t: LEFT COMMAND, h: sticky}
+  - func
+  - {t: LEFT CONTROL, h: sticky}
+  - {t: LEFT ALT, h: sticky}
+  - SPACE
   number:
   - '~'
   - '1'
@@ -59,9 +59,9 @@ layers:
   - PRINTSCREEN
   - F16
   - F17
-  - LEFT ARROW
-  - RIGHT
-  - {t: VOLUME UP, type: held}
+  - GLOBE
+  - PLAY PAUSE
+  - VOLUME UP
   - LEFT
   - DOWN
   - UP
@@ -74,18 +74,18 @@ layers:
   - BRIGHTNESS DEC
   - BRIGHTNESS INC
   - VOLUME DOWN
-  - DOWN
+  - {t: mouse, h: toggle}
   - HOME
   - END
   - '3'
   - '='
   - RIGHT SHIFT
+  - {type: held}
+  - {t: LEFT COMMAND, h: sticky}
+  - {t: ▽, type: trans}
+  - {t: LEFT CONTROL, h: sticky}
+  - {t: LEFT ALT, h: sticky}
   - SPACE
-  - LEFT GUI
-  - LEFT CONTROL
-  - {t: ▽, type: trans}
-  - LEFT ALT
-  - {t: ▽, type: trans}
   func:
   - ''
   - F1
@@ -123,12 +123,12 @@ layers:
   - F19
   - '&msc MOVE_Y(20)'
   - {t: ▽, type: trans}
-  - SPACE
-  - LEFT GUI
-  - {t: mouse, h: toggle}
-  - {type: held}
-  - LEFT ALT
   - {t: ▽, type: trans}
+  - {t: LEFT COMMAND, h: sticky}
+  - {type: held}
+  - {t: LEFT CONTROL, h: sticky}
+  - {t: LEFT ALT, h: sticky}
+  - {t: mouse, h: toggle}
   settings:
   - ''
   - '&sys_reset'
@@ -168,8 +168,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   mouse:
@@ -209,12 +209,12 @@ layers:
   - {t: ▽, type: trans}
   - '&msc MOVE_Y(20)'
   - {t: ▽, type: trans}
-  - SPACE
-  - LEFT GUI
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: default, h: toggle}
-  - {t: ▽, type: trans}
-  - LEFT ALT
-  - {t: ▽, type: trans}
 combos:
 - p: [2, 1]
   k: CAPS
