@@ -56,7 +56,7 @@ layers:
   - '9'
   - '0'
   - PAGE UP
-  - PRINTSCREEN
+  - '`'
   - F16
   - F17
   - GLOBE
