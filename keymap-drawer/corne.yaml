@@ -38,8 +38,8 @@ layers:
   - /
   - RSHFT
   - SPACE
-  - {t: LEFT COMMAND, h: sticky}
-  - {t: LEFT CONTROL, h: sticky}
+  - LEFT CONTROL
+  - LEFT META
   - func
   - {t: LEFT ALT, h: sticky}
   - number
