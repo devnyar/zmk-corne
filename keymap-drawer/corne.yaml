@@ -55,19 +55,19 @@ layers:
   - '8'
   - '9'
   - '0'
-  - PAGE UP
+  - DELETE
   - '`'
   - F16
   - F17
-  - GLOBE
   - PLAY PAUSE
+  - FIND
   - VOLUME UP
   - LEFT
   - DOWN
   - UP
   - RIGHT
   - '-'
-  - PAGE DOWN
+  - INSERT
   - LEFT SHIFT
   - F18
   - F19
