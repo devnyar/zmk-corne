@@ -176,16 +176,16 @@
 
         number_layer {
             bindings = <
-&kp TILDE       &kp N1   &kp N2   &kp N3                &kp N4                &kp N5               &kp N6    &kp N7        &kp N8   &kp N9     &kp N0     &kp DELETE
-&kp GRAVE       &kp F16  &kp F17  &kp K_PLAY_PAUSE      &kp K_FIND            &kp C_VOLUME_UP      &kp LEFT  &kp DOWN      &kp UP   &kp RIGHT  &kp MINUS  &kp INSERT
-&kp LEFT_SHIFT  &kp F18  &kp F19  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN    &tog 4    &kp HOME      &kp END  &kp N3     &kp EQUAL  &kp RIGHT_SHIFT
-                                  &kp SPACE             &sk LEFT_COMMAND      &sk LEFT_CONTROL     &trans    &sk LEFT_ALT  &trans
+&kp LS(GRAVE)    &kp N1   &kp N2   &kp N3                &kp N4                &kp N5               &kp N6    &kp N7        &kp N8   &kp N9     &kp N0     &kp DELETE
+&kp PRINTSCREEN  &kp F16  &kp F17  &kp K_PLAY_PAUSE      &kp K_FIND            &kp C_VOLUME_UP      &kp LEFT  &kp DOWN      &kp UP   &kp RIGHT  &kp MINUS  &kp INSERT
+&kp LEFT_SHIFT   &kp F18  &kp F19  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN    &tog 4    &kp HOME      &kp END  &kp N3     &kp EQUAL  &kp RIGHT_SHIFT
+                                   &kp SPACE             &sk LEFT_COMMAND      &sk LEFT_CONTROL     &trans    &sk LEFT_ALT  &trans
             >;
         };
 
         func {
             bindings = <
-&none           &kp F1   &kp F2   &kp F3     &kp F4            &kp F5              &msc MOVE_X(-20)  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &msc MOVE_Y(-20)  &input_switch
+&kp TILDE       &kp F1   &kp F2   &kp F3     &kp F4            &kp F5              &msc MOVE_X(-20)  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &msc MOVE_Y(-20)  &input_switch
 &mo 3           &kp F6   &kp F7   &kp F8     &kp F9            &kp F10             &mkp MB4          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB5          &trans
 &kp LEFT_SHIFT  &kp F11  &kp F12  &kp F13    &kp F14           &kp F15             &msc MOVE_X(20)   &tog 4          &mkp MCLK       &kp F19          &msc MOVE_Y(20)   &trans
                                   &kp SPACE  &sk LEFT_COMMAND  &sk LEFT_CONTROL    &trans            &sk LEFT_ALT    &trans

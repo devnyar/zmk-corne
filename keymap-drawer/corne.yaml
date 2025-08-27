@@ -44,7 +44,7 @@ layers:
   - {t: LEFT ALT, h: sticky}
   - number
   number:
-  - '~'
+  - Sft+`
   - '1'
   - '2'
   - '3'
@@ -56,7 +56,7 @@ layers:
   - '9'
   - '0'
   - DELETE
-  - '`'
+  - PRINTSCREEN
   - F16
   - F17
   - PLAY PAUSE
@@ -87,7 +87,7 @@ layers:
   - {t: LEFT ALT, h: sticky}
   - {type: held}
   func:
-  - ''
+  - '~'
   - F1
   - F2
   - F3
