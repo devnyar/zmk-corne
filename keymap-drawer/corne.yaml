@@ -44,37 +44,37 @@ layers:
   - {t: LEFT ALT, h: sticky}
   - number
   number:
+  - '~'
   - '`'
+  - BRIGHTNESS DEC
+  - BRIGHTNESS INC
+  - VOLUME DOWN
+  - VOLUME UP
+  - HOME
+  - PAGE DOWN
+  - PAGE UP
+  - END
+  - INSERT
+  - BACKSPACE
+  - PRINTSCREEN
   - '1'
   - '2'
   - '3'
   - '4'
   - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - DELETE
-  - PRINTSCREEN
-  - F16
-  - F17
-  - PLAY PAUSE
-  - FIND
-  - VOLUME UP
   - LEFT
   - DOWN
   - UP
   - RIGHT
   - '-'
-  - INSERT
+  - DELETE
   - LEFT SHIFT
-  - F18
-  - F19
-  - BRIGHTNESS DEC
-  - BRIGHTNESS INC
-  - VOLUME DOWN
-  - {t: mouse, h: toggle}
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - '&key_repeat'
   - HOME
   - END
   - '3'
