@@ -179,7 +179,7 @@
         number_layer {
             bindings = <
 &kp TILDE        &kp GRAVE     &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP     &kp HOME     &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp INSERT  &kp BACKSPACE
-&kp PRINTSCREEN  &kp NUMBER_1  &kp NUMBER_2          &kp NUMBER_3          &kp NUMBER_4       &kp NUMBER_5        &kp LEFT     &kp DOWN       &kp UP       &kp RIGHT  &kp MINUS   &kp DELETE
+&kp PRINTSCREEN  &kp NUMBER_1  &kp NUMBER_2          &kp NUMBER_3          &kp NUMBER_4       &kp NUMBER_5        &kp LEFT     &kp DOWN       &kp UP       &kp RIGHT  &kp K_FIND  &kp DELETE
 &kp LEFT_SHIFT   &kp NUMBER_6  &kp NUMBER_7          &kp NUMBER_8          &kp N9             &kp NUMBER_0        &key_repeat  &kp HOME       &kp END      &kp N3     &kp EQUAL   &kp RIGHT_SHIFT
                                                      &kp SPACE             &sk LEFT_COMMAND   &sk LEFT_CONTROL    &trans       &sk LEFT_ALT   &trans
             >;
