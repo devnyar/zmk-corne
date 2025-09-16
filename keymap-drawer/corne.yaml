@@ -23,9 +23,9 @@ layers:
   - {t: J, h: RIGHT CONTROL}
   - {t: K, h: RIGHT SHIFT}
   - {t: L, h: RIGHT ALT}
-  - {t: ;, h: RIGHT GUI}
+  - ;
   - RET
-  - {t: LEFT SHIFT, h: sticky}
+  - LEFT SHIFT
   - Z
   - X
   - C
@@ -45,9 +45,9 @@ layers:
   - number
   number:
   - '~'
-  - '`'
-  - BRIGHTNESS DEC
-  - BRIGHTNESS INC
+  - PREV
+  - PLAY PAUSE
+  - NEXT
   - VOLUME DOWN
   - VOLUME UP
   - HOME
@@ -74,7 +74,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - '&key_repeat'
+  - '`'
   - HOME
   - END
   - '3'
