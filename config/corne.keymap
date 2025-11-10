@@ -180,7 +180,7 @@
             bindings = <
 &kp TILDE        &kp K_PREV    &kp K_PLAY_PAUSE  &kp K_NEXT    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP     &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp INSERT  &kp BACKSPACE
 &kp PRINTSCREEN  &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4       &kp NUMBER_5        &kp LEFT   &kp DOWN       &kp UP       &kp RIGHT  &kp K_FIND  &kp DELETE
-&kp LEFT_SHIFT   &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8  &kp N9             &kp NUMBER_0        &kp GRAVE  &kp HOME       &kp END      &kp N3     &kp EQUAL   &kp RIGHT_SHIFT
+&kp LEFT_SHIFT   &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8  &kp N9             &kp NUMBER_0        &kp GRAVE  &kp HOME       &kp END      &kp N3     &mo 5       &kp RIGHT_SHIFT
                                                  &kp SPACE     &sk LEFT_COMMAND   &sk LEFT_CONTROL    &trans     &sk LEFT_ALT   &trans
             >;
         };
@@ -209,6 +209,15 @@
 &trans  &mkp MB5          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB4            &mkp MB4          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB5          &trans
 &trans  &msc MOVE_Y(20)   &trans          &mkp MCLK       &trans           &msc MOVE_X(20)     &msc MOVE_X(20)   &tog 4          &mkp MCLK       &trans           &msc MOVE_Y(20)   &trans
                                           &trans          &trans           &trans              &trans            &trans          &to 0
+            >;
+        };
+
+        numpad {
+            bindings = <
+&trans  &trans           &trans           &trans     &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_N3  &kp KP_N4  &kp KP_N5    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp KP_N6        &kp KP_N7        &kp KP_N8  &kp KP_N9  &kp KP_N0    &trans  &trans  &trans  &trans  &trans  &trans
+                                          &trans     &trans     &trans       &trans  &trans  &trans
             >;
         };
     };
